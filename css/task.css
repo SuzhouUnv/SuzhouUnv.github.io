@@ -44,12 +44,11 @@ a{
 	padding: 10px;
 	background-color: blue;
 	color: white;
-	font-size: 20px;
 	opacity: 0.3;
 	font-size: 16px;
 }
 .talk_size img{
-	width:15px; height:14px
+	width:15px; height:15px
 }
 
 .ul_1{
@@ -77,12 +76,18 @@ a{
 	padding: 10px 20px;
 	border-bottom: 2px dotted #ccc;
 }
+
+.service p{
+	font-size: 12px;
+}
 .service>ul>li{
 	padding: 5px 20px;
 }
 
 h4{
 	padding: 10px 30px;
+	position: relative;
+	top: -20px;
 }
 
 .midheadbox{
@@ -183,4 +188,20 @@ font-size: 14px;
 	margin: 0 10px;
 	padding: 5px;
 	position: relative;
+}
+
+#imgtime{
+	position: relative;
+	top: 10px;
+}
+
+#call{
+	position: relative;
+	left: 20px;
+}
+
+#imgsession{
+	position: relative;
+	left: 22px;
+	top: 10px;
 }
